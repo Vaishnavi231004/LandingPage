@@ -1,0 +1,106 @@
+
+.card {
+    background-color: #d2b4de;
+}
+
+.card-body {
+    flex: 1;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f0b27a;
+}
+
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+
+#services {
+    padding: 50px 0;
+}
+
+#services h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+    font-size: 2em;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-body {
+    flex: 1;
+}
+
+.coming-soon {
+    background-color: #d2b4de;
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+    text-align: center;
+    padding: 20px;
+}
+
+.coming-soon .card-title {
+    font-size: 1.25rem;
+    color: #333;
+}
+
+.coming-soon .card-text {
+    color: #666;
+}
+
+/* Navbar Styles */
+.navbar-custom {
+    background-color: #808b96;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: #333;
+}
+
+.navbar-custom .nav-link:hover {
+    color: #808b96;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .packages {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .package {
+        width: 90%;
+    }
+}
